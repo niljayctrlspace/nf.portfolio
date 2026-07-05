@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- ============ META / SEO ============ -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — Nilou Jay S. Fernandez</title>
+    <meta name="description" content="Systems and AI projects built by Nilou Jay S. Fernandez, including an RFID attendance system, a course scheduling system, and a deep learning object detection project." />
+    <meta name="keywords" content="IT Instructor, BSIT, Software Developer, Full Stack Developer, Web Developer, Portfolio" />
+    <meta name="author" content="Nilou Jay S. Fernandez" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-domain.com/projects.html" />
+
+    <!-- ============ OPEN GRAPH / SOCIAL SHARING ============ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Projects — Nilou Jay S. Fernandez" />
+    <meta property="og:description" content="Systems and AI projects built by Nilou Jay S. Fernandez, including an RFID attendance system, a course scheduling system, and a deep learning object detection project." />
+    <meta property="og:image" content="images/og-cover.jpg" />
+    <meta property="og:url" content="https://your-domain.com/projects.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Projects — Nilou Jay S. Fernandez" />
+    <meta name="twitter:description" content="Systems and AI projects built by Nilou Jay S. Fernandez, including an RFID attendance system, a course scheduling system, and a deep learning object detection project." />
+    <meta name="twitter:image" content="images/og-cover.jpg" />
+
+    <!-- ============ FAVICON ============ -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+
+    <!-- ============ FONTS ============ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- ============ ICONS (Lucide, lightweight SVG icon set) ============ -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+    <!-- ============ STYLES ============ -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- ============ PRELOADER ============ -->
+    <div id="preloader" aria-hidden="true">
+        <div class="preloader__mark"><span>&lt;</span>NF<span>/&gt;</span></div>
+    </div>
+
+    <!-- ============ SCROLL PROGRESS BAR ============ -->
+    <div id="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+    <!-- ============ SKIP LINK (Accessibility) ============ -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ============ HEADER / NAVIGATION ============ -->
+    <header class="site-header" id="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="index.html" class="navbar__logo" aria-label="Nilou Jay S. Fernandez, home">
+                <span class="mono">&lt;</span>Nil Jay<span class="accent">.</span
+          >Fernandez<span class="mono">/&gt;</span>
+            </a>
+
+            <button id="nav-toggle" class="navbar__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navbar-menu">
+          <span></span><span></span><span></span>
+        </button>
+
+            <ul class="navbar__menu" id="navbar-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li>
+                    <a href="projects.html" class="nav-link is-active" aria-current="page">Projects</a
+            >
+          </li>
+          <li>
+            <a href="certifications.html" class="nav-link">Certifications</a>
+                </li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="navbar__actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+            <i data-lucide="sun-medium" class="icon icon--sun"></i>
+            <i data-lucide="moon" class="icon icon--moon"></i>
+          </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="projects" class="section section--alt">
+            <div class="container">
+                <p class="eyebrow mono">// projects</p>
+                <h2 class="section__title">Things I've built</h2>
+
+                <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+                    <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">
+              All
+            </button>
+                    <button class="filter-btn" data-filter="systems" role="tab" aria-selected="false">
+              Systems
+            </button>
+                    <button class="filter-btn" data-filter="ai" role="tab" aria-selected="false">
+              AI / Deep Learning
+            </button>
+                </div>
+
+                <div class="projects__grid" id="projects-grid">
+                    <article class="project-card reveal" data-category="systems">
+                        <div class="project-card__thumb" aria-hidden="true">
+                            <i data-lucide="scan-line" class="icon icon--xl"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <h3>
+                                RFID-Based Student Attendance Monitoring and Academic Reporting System
+                            </h3>
+                            <p>
+                                An RFID attendance system with automated drop-letter generation and statistical analysis for academic reporting.
+                            </p>
+                            <ul class="tag-list tag-list--sm">
+                                <li>Java</li>
+                                <li>MySQL</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="#" target="_blank" rel="noopener">Live
+                    <i data-lucide="arrow-up-right" class="icon icon--sm"></i
+                  ></a>
+                                <a href="#" target="_blank" rel="noopener">Code <i data-lucide="github" class="icon icon--sm"></i
+                  ></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="systems">
+                        <div class="project-card__thumb" aria-hidden="true">
+                            <i data-lucide="calendar-cog" class="icon icon--xl"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <h3>Course Scheduling System</h3>
+                            <p>
+                                A scheduling system with automated conflict detection and schedule optimization for course planning.
+                            </p>
+                            <ul class="tag-list tag-list--sm">
+                                <li>Java</li>
+                                <li>MySQL</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="#" target="_blank" rel="noopener">Live
+                    <i data-lucide="arrow-up-right" class="icon icon--sm"></i
+                  ></a>
+                                <a href="#" target="_blank" rel="noopener">Code <i data-lucide="github" class="icon icon--sm"></i
+                  ></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="ai">
+                        <div class="project-card__thumb" aria-hidden="true">
+                            <i data-lucide="scan-search" class="icon icon--xl"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <h3>
+                                Multiple Object Detection of Muslim Cultural Artifacts Using Deep Learning
+                            </h3>
+                            <p>
+                                A deep learning model that detects and classifies multiple Muslim cultural artifacts in images using YOLOv11.
+                            </p>
+                            <ul class="tag-list tag-list--sm">
+                                <li>Kotlin</li>
+                                <li>Python</li>
+                                <li>YOLOv11</li>
+                                <li>TensorFlow</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="#" target="_blank" rel="noopener">Live
+                    <i data-lucide="arrow-up-right" class="icon icon--sm"></i
+                  ></a>
+                                <a href="#" target="_blank" rel="noopener">Code <i data-lucide="github" class="icon icon--sm"></i
+                  ></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="systems">
+                        <div class="project-card__thumb" aria-hidden="true">
+                            <i data-lucide="clipboard-list" class="icon icon--xl"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <h3>Student Grading and Records Management System</h3>
+                            <p>
+                                A system for managing student grades and academic records, built to streamline recording, computation, and reporting.
+                            </p>
+                            <ul class="tag-list tag-list--sm">
+                                <li>Java</li>
+                                <li>MySQL</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="#" target="_blank" rel="noopener">Live
+                    <i data-lucide="arrow-up-right" class="icon icon--sm"></i
+                  ></a>
+                                <a href="#" target="_blank" rel="noopener">Code <i data-lucide="github" class="icon icon--sm"></i
+                  ></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="systems">
+                        <div class="project-card__thumb" aria-hidden="true">
+                            <i data-lucide="bus" class="icon icon--xl"></i>
+                        </div>
+                        <div class="project-card__body">
+                            <h3>
+                                Mobile-Based QR Code Bus Ticketing and Occupancy Monitoring System
+                            </h3>
+                            <p>
+                                A mobile ticketing system using QR codes for fare processing, paired with real-time bus occupancy monitoring.
+                            </p>
+                            <ul class="tag-list tag-list--sm">
+                                <li>Kotlin</li>
+                                <li>PHP</li>
+                                <li>JSON</li>
+                                <li>MySQL</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="#" target="_blank" rel="noopener">Live
+                    <i data-lucide="arrow-up-right" class="icon icon--sm"></i
+                  ></a>
+                                <a href="#" target="_blank" rel="noopener">Code <i data-lucide="github" class="icon icon--sm"></i
+                  ></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container site-footer__grid">
+            <div>
+                <a href="index.html" class="navbar__logo" aria-label="Nilou Jay S. Fernandez, home">
+                    <span class="mono">&lt;</span>Nil Jay<span class="accent">.</span
+            >Fernandez<span class="mono">/&gt;</span>
+                </a>
+                <p>
+                    IT Instructor &amp; Software Developer, focused on BSIT education.
+                </p>
+            </div>
+            <nav aria-label="Footer navigation">
+                <h3>Sections</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h3>Elsewhere</h3>
+                <div class="social-links">
+                    <a href="https://github.com/niljayctrlspace" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/nilou-jay-fernandez-32ab57415/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/niljay.cabogaming" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container site-footer__bottom">
+            <center>
+                <p>
+                    &copy; <span id="year"></span> Nilou Jay S. Fernandez | All rights reserved.
+                </p>
+            </center>
+        </div>
+    </footer>
+
+    <!-- ============ BACK TO TOP ============ -->
+    <button id="back-to-top" aria-label="Back to top">
+      <i data-lucide="arrow-up" class="icon"></i>
+    </button>
+
+    <!-- ============ SCRIPTS ============ -->
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

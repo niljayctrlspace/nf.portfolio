@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- ============ META / SEO ============ -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home — Nilou Jay S. Fernandez</title>
+    <meta name="description" content="Nilou Jay S. Fernandez is a BSIT-focused IT Instructor and Full-Stack Developer building real software and mentoring the next generation of developers." />
+    <meta name="keywords" content="IT Instructor, BSIT, Software Developer, Full Stack Developer, Web Developer, Portfolio" />
+    <meta name="author" content="Nilou Jay S. Fernandez" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-domain.com/index.html" />
+
+    <!-- ============ OPEN GRAPH / SOCIAL SHARING ============ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Home — Nilou Jay S. Fernandez" />
+    <meta property="og:description" content="Nilou Jay S. Fernandez is a BSIT-focused IT Instructor and Full-Stack Developer building real software and mentoring the next generation of developers." />
+    <meta property="og:image" content="images/og-cover.jpg" />
+    <meta property="og:url" content="https://your-domain.com/index.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Home — Nilou Jay S. Fernandez" />
+    <meta name="twitter:description" content="Nilou Jay S. Fernandez is a BSIT-focused IT Instructor and Full-Stack Developer building real software and mentoring the next generation of developers." />
+    <meta name="twitter:image" content="images/og-cover.jpg" />
+
+    <!-- ============ FONTS ============ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- ============ ICONS (Lucide, lightweight SVG icon set) ============ -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+    <!-- ============ STYLES ============ -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- ============ PRELOADER ============ -->
+    <div id="preloader" aria-hidden="true">
+        <div class="preloader__mark"><span>&lt;</span>NF<span>/&gt;</span></div>
+    </div>
+
+    <!-- ============ SCROLL PROGRESS BAR ============ -->
+    <div id="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+    <!-- ============ SKIP LINK (Accessibility) ============ -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ============ HEADER / NAVIGATION ============ -->
+    <header class="site-header" id="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="index.html" class="navbar__logo" aria-label="Nilou Jay S. Fernandez, home">
+                <span class="mono">&lt;</span>Nil Jay<span class="accent">.</span
+          >Fernandez<span class="mono">/&gt;</span>
+            </a>
+
+            <button id="nav-toggle" class="navbar__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navbar-menu">
+          <span></span><span></span><span></span>
+        </button>
+
+            <ul class="navbar__menu" id="navbar-menu">
+                <li>
+                    <a href="index.html" class="nav-link is-active" aria-current="page">Home</a
+            >
+          </li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li>
+                    <a href="certifications.html" class="nav-link">Certifications</a>
+                </li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="navbar__actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+            <i data-lucide="sun-medium" class="icon icon--sun"></i>
+            <i data-lucide="moon" class="icon icon--moon"></i>
+          </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="hero" class="hero">
+            <div class="hero__bg" aria-hidden="true">
+                <span class="blob blob--a"></span>
+                <span class="blob blob--b"></span>
+                <span class="blob blob--c"></span>
+            </div>
+
+            <div class="container hero__grid">
+                <div class="hero__copy reveal">
+                    <p class="eyebrow mono">// hello, world</p>
+                    <h1 class="hero__title">
+                        I teach IT.<br /> I also <span class="accent-underline">ship it.</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        I'm <strong>Nilou Jay S. Fernandez</strong>, an IT Instructor, Computer Programmer Data Analyst, and IT Professional. By day I teach programming, databases, and emerging technologies to aspiring IT professionals—by continuously
+                        applying those same skills to develop software solutions and analyze data for real-world challenges.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="projects.html" class="btn btn--primary">
+                            <i data-lucide="folder-code" class="icon"></i> View Projects
+                        </a>
+                        <a href="assets/Nilou_Jay_Fernandez_CV.pdf" class="btn btn--ghost" download>
+                            <i data-lucide="download" class="icon"></i> Download Resume
+                        </a>
+                    </div>
+                    <div class="hero__stats" id="stats">
+                        <div class="stat">
+                            <span class="stat__number" data-count="7">0</span
+                ><span class="mono">+</span>
+                            <span class="stat__label">Years Teaching &amp; Dev</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-count="5000">0</span
+                ><span class="mono">+</span>
+                            <span class="stat__label">Students Mentored</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number" data-count="35">0</span
+                ><span class="mono">+</span>
+                            <span class="stat__label">Projects Shipped</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual reveal" aria-hidden="true">
+                    <div class="ide-window">
+                        <div class="ide-window__bar">
+                            <span class="dot dot--a"></span><span class="dot dot--b"></span
+                ><span class="dot dot--c"></span>
+                            <span class="ide-window__title mono">instructor.js</span>
+                        </div>
+                        <div class="ide-window__body mono">
+                            <p>
+                                <span class="tok-key">const</span>
+                                <span class="tok-var">nil</span> = {
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;<span class="tok-prop">role</span>:
+                                <span class="tok-str">"IT Instructor + Developer"</span>,
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;<span class="tok-prop">focus</span>:
+                                <span class="tok-str">"BSIT"</span>,
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;<span class="tok-prop">status</span>:
+                                <span id="typing-target"></span><span class="caret">|</span>
+                            </p>
+                            <p>};</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="about.html" class="scroll-cue" aria-label="Scroll to About section">
+                <i data-lucide="chevron-down" class="icon"></i>
+            </a>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container site-footer__grid">
+            <div>
+                <a href="index.html" class="navbar__logo" aria-label="Nilou Jay S. Fernandez, home">
+                    <span class="mono">&lt;</span>Nil Jay<span class="accent">.</span
+            >Fernandez<span class="mono">/&gt;</span>
+                </a>
+                <p>
+                    IT Instructor &amp; Software Developer, focused on BSIT education.
+                </p>
+            </div>
+            <nav aria-label="Footer navigation">
+                <h3>Sections</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h3>Elsewhere</h3>
+                <div class="social-links">
+                    <a href="https://github.com/niljayctrlspace" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/nilou-jay-fernandez-32ab57415/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/niljay.cabogaming" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container site-footer__bottom">
+            <center>
+                <p>
+                    &copy; <span id="year"></span> Nilou Jay S. Fernandez | All rights reserved.
+                </p>
+            </center>
+        </div>
+    </footer>
+
+    <!-- ============ BACK TO TOP ============ -->
+    <button id="back-to-top" aria-label="Back to top">
+      <i data-lucide="arrow-up" class="icon"></i>
+    </button>
+
+    <!-- ============ SCRIPTS ============ -->
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>

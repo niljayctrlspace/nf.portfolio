@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- ============ META / SEO ============ -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — Nilou Jay S. Fernandez</title>
+    <meta name="description" content="About Nilou Jay S. Fernandez — IT Instructor and Full-Stack Developer, teaching BSIT students while building production software." />
+    <meta name="keywords" content="IT Instructor, BSIT, Software Developer, Full Stack Developer, Web Developer, Portfolio" />
+    <meta name="author" content="Nilou Jay S. Fernandez" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://your-domain.com/about.html" />
+
+    <!-- ============ OPEN GRAPH / SOCIAL SHARING ============ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="About — Nilou Jay S. Fernandez" />
+    <meta property="og:description" content="About Nilou Jay S. Fernandez — IT Instructor and Full-Stack Developer, teaching BSIT students while building production software." />
+    <meta property="og:image" content="images/og-cover.jpg" />
+    <meta property="og:url" content="https://your-domain.com/about.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About — Nilou Jay S. Fernandez" />
+    <meta name="twitter:description" content="About Nilou Jay S. Fernandez — IT Instructor and Full-Stack Developer, teaching BSIT students while building production software." />
+    <meta name="twitter:image" content="images/og-cover.jpg" />
+
+    <!-- ============ FAVICON ============ -->
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+
+    <!-- ============ FONTS ============ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- ============ ICONS (Lucide, lightweight SVG icon set) ============ -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+
+    <!-- ============ STYLES ============ -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- ============ PRELOADER ============ -->
+    <div id="preloader" aria-hidden="true">
+        <div class="preloader__mark"><span>&lt;</span>NF<span>/&gt;</span></div>
+    </div>
+
+    <!-- ============ SCROLL PROGRESS BAR ============ -->
+    <div id="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+    <!-- ============ SKIP LINK (Accessibility) ============ -->
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ============ HEADER / NAVIGATION ============ -->
+    <header class="site-header" id="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a href="index.html" class="navbar__logo" aria-label="Nilou Jay S. Fernandez, home">
+                <span class="mono">&lt;</span>Nil Jay<span class="accent">.</span
+          >Fernandez<span class="mono">/&gt;</span>
+            </a>
+
+            <button id="nav-toggle" class="navbar__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navbar-menu">
+          <span></span><span></span><span></span>
+        </button>
+
+            <ul class="navbar__menu" id="navbar-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li>
+                    <a href="about.html" class="nav-link is-active" aria-current="page">About</a
+            >
+          </li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li>
+                    <a href="certifications.html" class="nav-link">Certifications</a>
+                </li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonials.html" class="nav-link">Testimonials</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="navbar__actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+            <i data-lucide="sun-medium" class="icon icon--sun"></i>
+            <i data-lucide="moon" class="icon icon--moon"></i>
+          </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section id="about" class="section">
+            <div class="container">
+                <p class="eyebrow mono">// about</p>
+                <h2 class="section__title">Two roles. One mindset.</h2>
+
+                <div class="about__grid">
+                    <div class="about__card reveal">
+                        <i data-lucide="graduation-cap" class="icon icon--lg"></i>
+                        <h3>In the classroom</h3>
+                        <p>
+                            I teach core BSIT subjects — programming fundamentals, data structures, databases, and web development — turning abstract theory into projects students can actually defend in an interview.
+                        </p>
+                    </div>
+                    <div class="about__card reveal">
+                        <i data-lucide="terminal-square" class="icon icon--lg"></i>
+                        <h3>At the keyboard</h3>
+                        <p>
+                            I stay hands-on building real products: REST APIs, dashboards, and client sites. Every lesson I teach is something I've shipped, debugged, and deployed myself.
+                        </p>
+                    </div>
+                    <div class="about__card reveal">
+                        <i data-lucide="users-round" class="icon icon--lg"></i>
+                        <h3>In between</h3>
+                        <p>
+                            I mentor capstone teams from idea to deployment, review code like a senior engineer, and grade like an instructor who remembers what it's like to be stuck at 2am.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EDUCATION ============ -->
+        <section id="education" class="section section--alt">
+            <div class="container">
+                <p class="eyebrow mono">// education</p>
+                <h2 class="section__title">Where I studied</h2>
+
+                <div class="timeline">
+                    <div class="timeline__item reveal">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="mono timeline__date">2023 — 2025</span>
+                            <h3>Master of Science in Information Technology</h3>
+                            <p class="timeline__org">Ateneo de Davao University</p>
+                            <p>Graduated 2025.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item reveal">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="mono timeline__date">2014 — 2018</span>
+                            <h3>Bachelor of Science in Information Technology</h3>
+                            <p class="timeline__org">Cor Jesu College Inc.</p>
+                            <p>Graduated 2018.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item reveal">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="mono timeline__date">2009 — 2013</span>
+                            <h3>Secondary Education</h3>
+                            <p class="timeline__org">Holy Cross of Hagonoy Inc.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline__item reveal">
+                        <div class="timeline__dot"></div>
+                        <div class="timeline__content">
+                            <span class="mono timeline__date">2004 — 2009</span>
+                            <h3>Elementary Education</h3>
+                            <p class="timeline__org">Hagonoy Elementary School</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PHOTO ALBUMS ============ -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <p class="eyebrow mono">// gallery</p>
+                <h2 class="section__title">Photo Albums</h2>
+
+                <div class="filter-bar" id="album-tabs" role="tablist" aria-label="Filter photos by album"></div>
+
+                <div class="gallery-grid" id="gallery-grid"></div>
+                <p class="gallery-empty" id="gallery-empty" hidden></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+        <div class="container site-footer__grid">
+            <div>
+                <a href="index.html" class="navbar__logo" aria-label="Nilou Jay S. Fernandez, home">
+                    <span class="mono">&lt;</span>Nil Jay<span class="accent">.</span
+            >Fernandez<span class="mono">/&gt;</span>
+                </a>
+                <p>
+                    IT Instructor &amp; Software Developer, focused on BSIT education.
+                </p>
+            </div>
+            <nav aria-label="Footer navigation">
+                <h3>Sections</h3>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h3>Elsewhere</h3>
+                <div class="social-links">
+                    <a href="https://github.com/niljayctrlspace" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/nilou-jay-fernandez-32ab57415/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/niljay.cabogaming" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container site-footer__bottom">
+            <center>
+                <p>
+                    &copy; <span id="year"></span> Nilou Jay S. Fernandez | All rights reserved.
+                </p>
+            </center>
+        </div>
+    </footer>
+
+    <!-- ============ LIGHTBOX (photo gallery viewer) ============ -->
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button id="lightbox-close" class="lightbox__close" aria-label="Close photo viewer">
+        <i data-lucide="x" class="icon"></i>
+      </button>
+        <img id="lightbox-img" src="" alt="" />
+    </div>
+
+    <!-- ============ BACK TO TOP ============ -->
+    <button id="back-to-top" aria-label="Back to top">
+      <i data-lucide="arrow-up" class="icon"></i>
+    </button>
+
+    <!-- ============ SCRIPTS ============ -->
+    <script src="photos/albums-data.js"></script>
+    <script src="js/script.js" defer></script>
+</body>
+
+</html>
