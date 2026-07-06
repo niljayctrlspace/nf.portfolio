@@ -84,6 +84,6 @@ window.PHOTO_ALBUMS = [{
         id: "msit-graduates",
         title: "MSIT Graduate",
         folder: "photos/msit-graduates",
-        photos: ["1.jpg", "2.jpg",],
+        photos: ["1.JPG", "2.JPG",],
     },
 ];
